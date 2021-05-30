@@ -1,6 +1,7 @@
 /////////////
 // Integration: Oh No-VID!
 /////////////
+//
 // The front office has just sent word of a COVID exposure on campus!
 // Little Joseph Smith started feeling ill this morning and has since
 // tested positive for the virus. We need to immediately prepare a list
@@ -11,6 +12,7 @@
 // likely to be infected as well. We need to find the names of all students
 // that share any class (called a "group" by the SIS) with any of the
 // Smith children. Write a script that calculates and prints these names.
+//
 /////////////
 //
 // Unfortunately, our SIS backend is pretty primitive and supports only
