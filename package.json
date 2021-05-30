@@ -1,0 +1,13 @@
+{
+  "name": "interview",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/aaron-swift/interview.git",
+  "author": "Aaron Hammond <ahammond@mit.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "node-fetch": "^2.6.1"
+  },
+  "type": "module"
+}
