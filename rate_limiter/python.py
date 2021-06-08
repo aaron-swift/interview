@@ -1,6 +1,12 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+# Sometimes, we need to rate limit an API endpoint such
+# that no one school can crowd out the others by making
+# too many requests within a short period of time.
+
+# Implement such a rate-limiter, limiting a school to
+# 5 calls within **any** 2 second window. Pseudocode follows below.
 
 class API:
     def __init__(self):
