@@ -36,4 +36,4 @@ for i in range(5):
 lmt.is_limited('school')  # should return true
 
 # wait two seconds...
-lmt.limit('school') # should return false
+lmt.is_limited('school') # should return false
