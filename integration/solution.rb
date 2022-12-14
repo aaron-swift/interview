@@ -15,7 +15,7 @@
 # Unfortunately, our SIS backend is pretty primitive and supports only
 # a few API methods:
 #
-# ROOT = https://august-schools.herokuapp.com/
+# ROOT = https://august-interview.herokuapp.com/
 #
 # GET /students.json?first_name=<String>&last_name=<String>
 # Returns students with a given first name and last name.
@@ -57,7 +57,7 @@
 require 'http'
 require 'json'
 
-ROOT_URL = "https://august-schools.herokuapp.com/"
+ROOT_URL = "https://august-interview.herokuapp.com/"
 
 patient_zero = JSON.parse(HTTP.get("#{ROOT_URL}/students.json?first_name=Joseph&last_name=Smith").body)[0]
 puts "Patient zero", patient_zero
