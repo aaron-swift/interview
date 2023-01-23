@@ -18,7 +18,7 @@
 // Unfortunately, our SIS backend is pretty primitive and supports only
 // a few API methods:
 //
-// ROOT = https://august-schools.herokuapp.com/
+// ROOT = https://august-interview.herokuapp.com/
 //
 // GET /students.json?first_name=<String>&last_name=<String>
 // Returns an array of students with a given first name and last name.
